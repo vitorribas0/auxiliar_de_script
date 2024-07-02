@@ -101,7 +101,7 @@ elif menu == "Pesquisar":
                 st.write("Nenhum resultado encontrado.")
 
     elif search_type == "Script":
-        search_script_language = st.selectbox("Pesquisar por Linguagem", ["Todos", "Python", "JavaScript", "Java", "C++", "Outros"])
+        search_script_language = st.selectbox("Pesquisar por Linguagem", ["Todos", "Python", "Pyspark", "Pandas", "SQL", "AWS", "ATHENA", "Sagemaker", "S3"])
         search_script_title = st.text_input("Pesquisar por Título do Script")
 
         if st.button("Pesquisar Script"):
