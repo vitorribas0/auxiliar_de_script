@@ -69,7 +69,7 @@ if menu == "Adicionar Job":
 
 elif menu == "Adicionar Script":
     st.title("Adicionar Novo Script")
-    script_language = st.selectbox("Linguagem", ["Python", "JavaScript", "Java", "C++", "Outros"])
+    script_language = st.selectbox("Linguagem", ["Todos", "Python", "Pyspark", "Pandas", "SQL", "AWS", "ATHENA", "Sagemaker", "S3"])
     script_title = st.text_input("Título do Script")
     script_content = st.text_area("Conteúdo")
 
